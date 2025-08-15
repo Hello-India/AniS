@@ -1,5 +1,5 @@
 const express = require('express');
-const auth = require('../middleware/auth');
+const auth = require('../middleware/Auth');
 const router = express.Router();
 
 // Cloudflare R2 stub integration
