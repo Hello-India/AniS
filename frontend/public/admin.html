@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AniS Admin Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style/admin.css">
+</head>
+<body>
+  <nav class="navbar navbar-light bg-warning">
+    <a class="navbar-brand" href="index.html">AniS Admin</a>
+    <a href="index.html" class="btn btn-outline-dark ms-auto">Back to Site</a>
+  </nav>
+  <main class="container mt-4">
+    <h2>Add New Anime</h2>
+    <form id="addAnimeForm">
+      <input class="form-control mb-2" type="text" name="title" placeholder="Anime Title" required />
+      <textarea class="form-control mb-2" name="description" placeholder="Description"></textarea>
+      <input class="form-control mb-2" type="text" name="genres" placeholder="Genres (comma separated)" />
+      <input class="form-control mb-2" type="text" name="year" placeholder="Release Year" />
+      <input class="form-control mb-2" type="url" name="coverImage" placeholder="Cover Image URL" />
+      <button class="btn btn-success" type="submit">Add Anime</button>
+    </form>
+    <hr>
+    <h2>Upload Episode</h2>
+    <form id="uploadEpisodeForm">
+      <input class="form-control mb-2" type="text" name="animeId" placeholder="Anime ID" required />
+      <input class="form-control mb-2" type="text" name="title" placeholder="Episode Title" required />
+      <input class="form-control mb-2" type="number" name="number" placeholder="Episode Number" required />
+      <input class="form-control mb-2" type="url" name="videoUrl" placeholder="Video URL" required />
+      <button class="btn btn-primary" type="submit">Upload Episode</button>
+    </form>
+    <div id="admin-messages" class="mt-4"></div>
+  </main>
+  <script type="module" src="../src/admin.js"></script>
+</body>
+</html>
