@@ -1,6 +1,6 @@
 const express = require('express');
 const Anime = require('../models/Anime');
-const auth = require('../middleware/auth');
+const auth = require('../middleware/Auth');
 const router = express.Router();
 
 // Get all anime
