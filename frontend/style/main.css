@@ -1,0 +1,14 @@
+body {
+  background: #f8fafc;
+}
+.card {
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 0 12px #bbb;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
