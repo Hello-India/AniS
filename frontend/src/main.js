@@ -1,4 +1,4 @@
-const api = "http://localhost:5000/api";
+const api = "http://64.227.136.20:5000/api";
 
 function renderAnimeCard(anime) {
   return `<div class="col-md-3">
