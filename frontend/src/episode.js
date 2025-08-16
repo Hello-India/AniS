@@ -1,4 +1,4 @@
-const api = "http://localhost:5000/api";
+const api = "http://64.227.136.20:5000/api";
 const params = new URLSearchParams(window.location.search);
 const animeId = params.get("animeId");
 const epNum = params.get("epNum");
