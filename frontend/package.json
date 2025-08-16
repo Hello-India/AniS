@@ -2,7 +2,7 @@
   "name": "anis-frontend",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel public/index.html --port 3000"
+    "start": "parcel public/index.html --port 3000",
     "build": "parcel build public/index.html --dist-dir build"
   },
   "devDependencies": {
